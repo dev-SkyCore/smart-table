@@ -6,3 +6,4 @@ coverage
 .vite
 *.min.js
 *.min.css
+src/assets

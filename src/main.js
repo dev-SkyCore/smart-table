@@ -1,11 +1,7 @@
 import './fonts/ys-display/fonts.css';
 import './style.css';
-
-import { data as sourceData } from './data/dataset_1.js';
-
 import { initData } from './data.js';
 import { processFormData } from './lib/utils.js';
-
 import { initTable } from './components/table.js';
 import { initPagination } from './components/pagination.js';
 import { initSorting } from './components/sorting.js';
@@ -13,7 +9,7 @@ import { initFiltering } from './components/filtering.js';
 import { initSearching } from './components/searching.js';
 
 // Исходные данные используемые в render()
-const api = initData(sourceData);
+const api = initData();
 
 /**
  * Сбор и обработка полей из таблицы
